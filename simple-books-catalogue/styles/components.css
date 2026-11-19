@@ -1,0 +1,39 @@
+@import url('variables.css');
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: background-color var(--transition-fast), opacity var(--transition-fast);
+}
+
+.btn--primary {
+    background-color: var(--green);
+    color: var(--favorite);
+    padding: 12px 20px;
+    border-radius: var(--radius-main);
+}
+
+.btn--primary:hover {
+    opacity: 0.8;
+}
+
+.btn--icon {
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: var(--favorite);
+}
+
+.btn--icon:hover {
+    background-color: var(--favorite);
+}
+
+.btn--icon img {
+    width: 15px;
+    height: 15px;
+}

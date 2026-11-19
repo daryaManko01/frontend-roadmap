@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book Catalog</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <figure class="header__logo">
+                <img
+                        src="assets/book.svg"
+                        alt="Logo"
+                >
+            </figure>
+            <div>
+                <p class="header__title">The Library</p>
+                <p class="header__description">Discover your next favorite book</p>
+            </div>
+        </header>
+
+        <main class="page">
+            <section class="page__hero hero">
+                <h1 class="hero__title">Discover Your Next Great Read</h1>
+                <p class="hero__description">Search millions of books, build your personal library, and never lose track
+                    of what to read next.</p>
+                <form class="search-form">
+                    <div class="search-form__field">
+                        <figure class="search-form__icon">
+                            <img src="assets/search.svg"
+                                 alt="Search for books by title or author">
+                        </figure>
+
+                        <input
+                                class="search-form__input"
+                                id="search"
+                                type="text"
+                                placeholder="Search for books by title or author..."
+                        >
+
+                    </div>
+                    <button
+                            class="btn btn--primary"
+                            type="submit"
+                    >Search
+                    </button>
+                </form>
+            </section>
+
+            <section class="page__catalog catalog">
+                <div class="catalog__grid">
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-great-gatsby.svg"
+                                    alt="Cover for the book Fahrenheit 451"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Fahrenheit 451,</h2>
+                            <p class="book-card__author">Ray Bradbury,</p>
+                            <p class="book-card__year">1953.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-pride-and-prejudice.svg"
+                                    alt="Cover for the book Pride and Prejudice"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Brave New World,</h2>
+                            <p class="book-card__author">Aldous Huxley,</p>
+                            <p class="book-card__year">1932.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-eugene-onegin.svg"
+                                    alt="Cover for the book The Lord of the Rings"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">The Lord of the Rings,</h2>
+                            <p class="book-card__author">J.R.R. Tolkien,</p>
+                            <p class="book-card__year">1954.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-the-amazing-mr-fox.svg"
+                                    alt="Cover for the book Jane Eyre"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Jane Eyre,</h2>
+                            <p class="book-card__author">Charlotte Brontë,</p>
+                            <p class="book-card__year">1847.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-hobbit-book.svg"
+                                    alt="Cover for the book Wuthering Heights"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Wuthering Heights,</h2>
+                            <p class="book-card__author">Emily Brontë,</p>
+                            <p class="book-card__year">1847.</p>
+                        </div>
+                    </article>
+
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-fahrenheit-451.svg"
+                                    alt="Cover for the book Fahrenheit 451"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Fahrenheit 451,</h2>
+                            <p class="book-card__author">Ray Bradbury,</p>
+                            <p class="book-card__year">1953.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-pride-and-prejudice_2.svg"
+                                    alt="Cover for the book Brave New World"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Brave New World</h2>
+                            <p class="book-card__author">Aldous Huxley,</p>
+                            <p class="book-card__year">1932.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-wuthering-heights.svg"
+                                    alt="Cover for the book Wuthering Heights"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Wuthering Heights,</h2>
+                            <p class="book-card__author">Emily Brontë,</p>
+                            <p class="book-card__year">1847.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-jane-eyre.svg"
+                                    alt="Cover for the book Jane Eyre"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">Jane Eyre,</h2>
+                            <p class="book-card__author">Charlotte Brontë,</p>
+                            <p class="book-card__year">1847.</p>
+                        </div>
+                    </article>
+                    <article class="book-card">
+                        <figure class="book-card__cover">
+                            <img
+                                    src="assets/the-book-the-lord-of-the-rings.svg"
+                                    alt="Cover for the book The Lord of the Rings"
+                            >
+                        </figure>
+
+                        <button
+                                class="btn btn--icon book-card__favorite"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                        <div class="text">
+                            <h2 class="book-card__title">The Lord of the Rings,</h2>
+                            <p class="book-card__author">J.R.R. Tolkien,</p>
+                            <p class="book-card__year">1954.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <aside class="page__favorites favorites">
+                <section class="favorites__header">
+                    <button class="btn btn--icon"
+                            type="button"
+                    >
+                        <img
+                                src="assets/heart.svg"
+                                alt="Add a book to the Favorites section"
+                        >
+                    </button>
+                    <h2 class="favorites__title">Favorites</h2>
+                </section>
+                <section class="favorites__list">
+                    <article class="favorites__card">
+                        <figure class="favorites__cover">
+                            <img
+                                    src="assets/the-great-gatsby.svg"
+                                    alt="Cover for the book The Great Gatsby"
+                            >
+                        </figure>
+
+                        <div class="text-favorites">
+                            <h2 class="book-card__title">The Great Gatsby</h2>
+                            <p class="book-card__author">F. Scott Fitzgerald</p>
+                            <p class="book-card__year">1925</p>
+                        </div>
+
+                        <button class="btn btn--icon"
+                                type="button"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                    </article>
+                    <article class="favorites__card">
+                        <figure class="favorites__cover">
+                            <img
+                                    src="assets/the-book-pride-and-prejudice.svg"
+                                    alt="Cover for the book Pride and Prejudice"
+                            >
+                        </figure>
+
+                        <div class="text-favorites">
+                            <h2 class="book-card__title">Brave New World</h2>
+                            <p class="book-card__author">Aldous Huxley</p>
+                            <p class="book-card__year">1932</p>
+                        </div>
+
+                        <button class="btn btn--icon"
+                                type="button"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+                    </article>
+                    <article class="favorites__card">
+                        <figure class="favorites__cover">
+                            <img
+                                    src="assets/the-book-eugene-onegin.svg"
+                                    alt="Cover for the book The Lord of the Rings"
+                            >
+                        </figure>
+
+                        <div class="text-favorites">
+                            <h2 class="book-card__title">The Lord of the Rings</h2>
+                            <p class="book-card__author">J.R.R. Tolkien</p>
+                            <p class="book-card__year">1954</p>
+                        </div>
+
+                        <button class="btn btn--icon"
+                                type="button"
+                        >
+                            <img
+                                    src="assets/heart.svg"
+                                    alt="Add a book to favorites"
+                            >
+                        </button>
+
+                    </article>
+                </section>
+            </aside>
+
+        </main>
+        <footer class="page__footer footer">
+            <p>© 2026 The Library. Powered by Open Library.</p>
+        </footer>
+    </body>
+</html>
+
+
+
+
